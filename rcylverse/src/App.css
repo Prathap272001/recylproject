@@ -1,0 +1,2122 @@
+* {
+    scroll-behavior: smooth;
+}
+
+.belownav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    
+
+}
+
+.navpara a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+#siup {
+    color: #2138a8;
+    padding: 0.4em 1em;
+    background: #edf2ff;
+    border-radius: 2em;
+    margin-right: 20px;
+}
+
+
+
+.navbutton a,
+Link {
+    background-color: rgb(204, 191, 191);
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.belownav img {
+    width: 750px;
+    margin-top: -100px;
+}
+
+.navpara {
+    margin-top: 80px;
+
+}
+
+.navpara h1 {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: left;
+
+}
+
+.navpara h3 {
+    font-size: 20px;
+    margin-top: 50px;
+    color: purple;
+    text-align: left;
+
+
+}
+
+.navpara p {
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-align: left;
+
+}
+
+@media (min-width: 1200px) {
+    .belownav {
+        margin-left: 120px;
+    }
+
+    .belownav img {
+        width: 750px;
+    }
+
+    .navpara h1 {
+        font-size: 60px;
+    }
+
+    .navpara h3 {
+        font-size: 20px;
+    }
+
+    .navpara p {
+        font-size: 25px;
+    }
+}
+
+/* For medium devices (tablets, 768px to 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .belownav {
+        flex-direction: column;
+        margin-left: 50px;
+        padding-top: 60px;
+    }
+
+    .belownav img {
+        width: 600px;
+        margin-top: -50px;
+    }
+
+    .navpara h1 {
+        font-size: 50px;
+    }
+
+    .navpara h3 {
+        font-size: 18px;
+    }
+
+    .navpara p {
+        font-size: 22px;
+    }
+    .navbutton a,
+    Link {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 250px;
+    }
+}
+
+/* For small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    .belownav {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 30px;
+        padding-top: 40px;
+    }
+
+    .belownav img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .navpara {
+        margin-left: 0;
+    }
+
+    .navpara h1 {
+        font-size: 40px;
+    }
+
+    .navpara h3 {
+        font-size: 16px;
+    }
+
+    .navpara p {
+        font-size: 20px;
+    }
+    .navbutton a,
+    Link {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 250px;
+
+    }
+}
+
+/* For extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    .belownav {
+        padding-top: 30px;
+        margin-left: 30px;
+
+    }
+
+    .navpara h1 {
+        font-size: 35px;
+    }
+
+    .navpara h3 {
+        font-size: 15px;
+    }
+
+    .navpara p {
+        font-size: 18px;
+    }
+
+    
+
+    .navbutton a,
+    Link {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        width: 250px;
+
+    }
+}
+
+@media (min-width:1200px) {
+    .inner-content {
+        margin: 80px;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:1199px) {
+    .inner-content {
+        margin: 70px;
+    }
+}
+
+@media (max-width:767px) {
+    .inner-content {
+        margin: 30px;
+    }
+    
+}
+@media (max-width: 575px)
+{
+    .inner-content {
+        margin: 0px;
+    }
+}
+
+
+#up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(65, 64, 64);
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 1200px) {
+    #up {
+        bottom: 20px;
+        right: 20px;
+        font-size: 20px;
+        padding: 15px;
+    }
+}
+
+/* For medium devices (tablets, 768px to 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    #up {
+        font-size: 22px;
+        padding: 12px;
+    }
+}
+
+/* For small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    #up {
+        font-size: 22px;
+        padding: 10px;
+    }
+}
+
+/* For extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    #up {
+        font-size: 18px;
+        padding: 8px;
+        bottom: 10px;
+        right: 10px;
+    }
+}
+
+
+.grab-h1 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.grab-p {
+    font-size: 25px;
+}
+
+.inner-grab {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* Added to ensure wrapping on smaller screens */
+}
+
+.grabimg {
+    width: 270px;
+    background-color: rgb(25, 24, 24);
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    flex: 1 1 calc(33.333% - 20px);
+    /* Allows for three items per row with spacing */
+    margin: 10px;
+}
+
+.grabimg img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.grabimg:hover img {
+    transform: scale(1.05);
+}
+
+.grabimg p {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgba(216, 216, 216, 0.845);
+    padding-bottom: 20px;
+    font-size: 17px;
+    margin-top: -10px;
+}
+
+.grabimg h3 {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+/* Media Queries */
+
+/* For large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    .grab-h1 {
+        font-size: 40px;
+    }
+
+    .grab {
+        margin: 50px;
+    }
+
+    .grab-p {
+        font-size: 25px;
+    }
+
+    .grabimg {
+        width: 270px;
+    }
+}
+
+/* For medium devices (tablets, 768px to 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .grab-h1 {
+        font-size: 35px;
+    }
+
+    .grab-p {
+        font-size: 22px;
+    }
+
+    .grabimg {
+        width: calc(50%-20px);
+        /* Two items per row with spacing */
+    }
+}
+
+/* For small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    .grab-h1 {
+        font-size: 30px;
+    }
+
+    .grab-p {
+        font-size: 20px;
+    }
+
+    .grabimg {
+        width: calc(100% - 20px);
+        /* One item per row with spacing */
+    }
+}
+
+/* For extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    .grab-h1 {
+        font-size: 25px;
+    }
+
+    .grab-p {
+        font-size: 18px;
+    }
+
+    .grabimg {
+        width: calc(100% - 20px);
+        /* One item per row with spacing */
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .sellorbuy img {
+        width: 70%;
+        margin-left: 150px;
+    }
+
+    .sellorbuy {
+        margin: 50px;
+    }
+}
+
+/* For medium devices (tablets, 768px to 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .sellorbuy img {
+        width: 80%;
+        margin-left: 100px;
+    }
+
+    .inner-sellorbuy {
+        align-items: center;
+        margin: 20px;
+    }
+
+    .ssb {
+        width: 300px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+/* For small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    .sellorbuy img {
+        width: 90%;
+        margin-left: 50px;
+    }
+
+    .inner-sellorbuy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px;
+        margin-bottom: 50px;
+        height: 350px;
+    }
+
+    .ssb {
+        width: 250px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .ssb a {
+        font-size: 18px;
+    }
+
+    .ssb h1 {
+        font-size: 24px;
+    }
+}
+
+/* For extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    .sellorbuy img {
+        width: 95%;
+        margin-left: 0;
+    }
+
+    .inner-sellorbuy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px;
+        margin-bottom: 50px;
+        height: 350px;
+    }
+
+    .ssb {
+        width: 100px;
+        margin: 5px;
+    }
+
+    .ssb a {
+        font-size: 16px;
+    }
+
+    .ssb h1 {
+        font-size: 30px;
+    }
+}
+
+.inner-sellorbuy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ssb {
+    background-color: rgb(67, 66, 66);
+    text-align: center;
+    color: white;
+    width: 350px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.ssb a {
+    color: rgba(147, 162, 237, 0.85);
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.ssb h1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.mostliked {
+    background-color: rgb(33, 33, 33);
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.mostliked img {
+    width: 550px;
+}
+
+.mostliked h1 {
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.mostliked p {
+    font-size: 25px;
+}
+
+.mostliked a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(204, 191, 191);
+    border-radius: 20px;
+    color: black;
+}
+
+.like-content {
+    width: 580px;
+    margin-top: -20px;
+}
+
+.overlike {
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 80px;
+    padding: 20px;
+    width: 450px;
+}
+
+.overlike p {
+    font-size: 17px;
+
+}
+
+.overlike img {
+    width: 150px;
+}
+
+.inner-overlike {
+    display: flex;
+}
+
+.inner-overlike img {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+
+}
+
+
+@media (min-width: 1200px) {
+    .mostliked img {
+        width: 500px;
+    }
+
+    .mostliked {
+        margin: 50px;
+    }
+
+    .mostliked h1 {
+        font-size: 45px;
+    }
+
+    .mostliked p {
+        font-size: 22px;
+    }
+
+    .like-content {
+        width: 520px;
+    }
+
+    .overlike {
+        width: 400px;
+    }
+
+    .overlike img {
+        width: 150px;
+    }
+
+    .inner-overlike img {
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+
+    }
+
+}
+
+/* For medium devices (tablets, 768px to 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .mostliked {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mostliked {
+        margin: 50px;
+    }
+
+    .mostliked img {
+        width: 450px;
+    }
+
+    .mostliked h1 {
+        font-size: 40px;
+    }
+
+    .mostliked p {
+        font-size: 20px;
+    }
+
+    .like-content {
+        width: 480px;
+    }
+
+    .overlike {
+        width: 350px;
+    }
+
+    .overlike img {
+        width: 150px;
+    }
+
+    .inner-overlike img {
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+
+    }
+}
+
+/* For small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    .mostliked {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .mostliked {
+        margin: 50px;
+    }
+
+    .mostliked img {
+        width: 350px;
+    }
+
+    .mostliked h1 {
+        font-size: 35px;
+    }
+
+    .mostliked p {
+        font-size: 18px;
+    }
+
+    .mostliked a {
+        padding: 8px;
+        font-size: 18px;
+    }
+
+    .like-content {
+        width: 100%;
+    }
+
+    .overlike {
+        width: 300px;
+        margin-top: 40px;
+    }
+
+    .overlike img {
+        width: 150px;
+    }
+
+    .inner-overlike img {
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+
+    }
+}
+
+/* For extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    .mostliked {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .mostliked img {
+        width: 300px;
+    }
+
+    .mostliked h1 {
+        font-size: 35px;
+    }
+
+    .mostliked p {
+        font-size: 20px;
+    }
+
+    .mostliked a {
+        padding: 6px;
+        font-size: 20px;
+    }
+
+    .like-content {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .overlike {
+        width: 250px;
+        margin-top: 50px;
+    }
+
+    .overlike p {
+        font-size: 18px;
+    }
+
+    .overlike img {
+        width: 120px;
+    }
+
+    .inner-overlike img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+
+.brand h1 {
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.brand p {
+    font-size: 23px;
+    margin-top: -20px;
+}
+
+.brand-img {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.brand-img::before {
+    left: 0;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 253, 253, 0));
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.brand-img::after {
+    right: 0;
+    background: linear-gradient(to left, rgb(255, 254, 254), rgba(255, 255, 255, 0));
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.img-slide {
+    display: flex;
+    width: calc(200%);
+    animation: scroll 20s linear infinite;
+}
+
+.img-slide img {
+    width: auto;
+    height: 35px;
+    margin-right: 50px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@media (min-width: 1200px) {
+    .brand {
+        margin: 50px;
+        text-align: center;
+        color: rgb(50, 50, 50);
+
+    }
+
+    .brand h1 {
+        font-size: 45px;
+    }
+
+    .brand p {
+        font-size: 20px;
+    }
+
+    .img-slide img {
+        height: 30px;
+    }
+}
+
+/* For medium devices (tablets, 768px to 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .brand h1 {
+        font-size: 40px;
+    }
+    .brand {
+        margin: 50px;
+        text-align: center;
+        color: rgb(50, 50, 50);
+
+    }
+
+    .brand p {
+        font-size: 18px;
+    }
+
+    .img-slide img {
+        height: 28px;
+        margin-right: 40px;
+    }
+}
+
+/* For small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    .brand h1 {
+        font-size: 35px;
+    }
+    .brand {
+        margin: 50px;
+        text-align: center;
+        color: rgb(50, 50, 50);
+
+    }
+
+    .brand p {
+        font-size: 16px;
+    }
+
+    .img-slide img {
+        height: 25px;
+        margin-right: 30px;
+    }
+}
+
+/* For extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    .brand {
+        margin: 10px;
+        margin-top: 50px;
+        margin-top: 50px;
+        text-align: center;
+        color: rgb(50, 50, 50);
+
+    }
+
+    .brand h1 {
+        font-size: 40px;
+    }
+
+    .brand p {
+        font-size: 20px;
+    }
+
+    .img-slide img {
+        height: 35px;
+        margin-right: 20px;
+    }
+}
+
+.tprojects {
+    margin: 50px;
+    font-size: 23px;
+}
+
+.tprojects-h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.inner-tprojects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.inner-tprojects h3 {
+    margin-top: 10px;
+    color: #ececec;
+}
+
+.tproject-content {
+    font-size: 20px;
+    width: 280px;
+    background-color: rgb(28, 27, 27);
+    color: white;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(164, 163, 163);
+}
+
+.tproject-content p {
+    color: rgba(255, 255, 255, 0.679);
+    margin-top: -15px;
+}
+
+.tproject-content img {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.679);
+    border-radius: 20px;
+}
+
+.tproject-content button {
+    background-color: rgb(204, 191, 191);
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+}
+
+@media (min-width: 1200px) {
+    .tprojects {
+        margin: 50px 50px;
+        font-size: 22px;
+    }
+
+    .tproject-content {
+        width: 300px;
+    }
+}
+
+/* For medium devices (tablets, 768px to 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .tprojects {
+        margin: 40px 60px;
+        font-size: 21px;
+    }
+
+    .tproject-content {
+        width: 260px;
+        margin: 15px;
+    }
+
+    .tproject-content button {
+        padding: 10px;
+    }
+}
+
+/* For small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    .tprojects {
+        margin: 30px 40px;
+        font-size: 20px;
+    }
+
+    .tproject-content {
+        width: 220px;
+        margin: 10px;
+        padding: 20px;
+    }
+
+    .tproject-content button {
+        padding: 8px;
+    }
+}
+
+/* For extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    .tprojects {
+        margin: 50px 10px;
+        font-size: 18px;
+    }
+
+    .tproject-content {
+        width: 300px;
+        margin: 5px;
+        padding: 15px;
+        margin-top: 20px;
+    }
+
+    .tproject-content button {
+        padding: 6px;
+    }
+}
+
+
+.opportunity {
+    margin: 50px;
+    text-align: center;
+    color: rgb(50, 50, 50);
+
+}
+
+.opportunity-h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.opportunity h1 {
+    font-size: 45px;
+}
+
+.opportunity p {
+    font-size: 23px;
+}
+
+.opportunity-content {
+    text-align: left;
+}
+
+.inner-opportunity {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+
+}
+
+.opportunity-dis {
+    width: 550px;
+    margin-top: 20%;
+}
+
+.opportunity-last {
+    width: 550px;
+    margin-top: 5%;
+}
+
+.opportunity img {
+    width: 500px;
+}
+
+.opportunity a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    background-color: rgb(204, 191, 191);
+    margin-top: 40px;
+}
+
+.opportunity-content h1 {
+    font-size: 35px;
+}
+
+@media (min-width: 1200px) {
+    .opportunity h1 {
+        font-size: 40px;
+    }
+
+    .opportunity p {
+        font-size: 22px;
+    }
+
+    .opportunity img {
+        width: 450px;
+    }
+
+    .opportunity-dis,
+    .opportunity-last {
+        width: 500px;
+    }
+}
+
+/* For medium devices (tablets, 768px to 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .opportunity {
+        margin: 40px;
+    }
+
+    .opportunity h1 {
+        font-size: 35px;
+    }
+
+    .opportunity p {
+        font-size: 20px;
+    }
+
+    .opportunity img {
+        width: 400px;
+    }
+
+    .opportunity-dis,
+    .opportunity-last {
+        width: 400px;
+        margin-top: 10%;
+    }
+}
+
+/* For small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    .opportunity {
+        margin: 30px;
+    }
+
+    .opportunity h1 {
+        font-size: 35px;
+    }
+
+    .opportunity p {
+        font-size: 20px;
+    }
+
+    .opportunity-content {
+        text-align: center;
+    }
+
+    .inner-opportunity {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .opportunity img {
+        width: 350px;
+    }
+
+    .opportunity-dis,
+    .opportunity-last {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .opportunity a {
+        padding: 8px;
+        font-size: 18px;
+    }
+}
+
+/* For extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    .opportunity {
+        margin: 10px;
+    }
+
+    .opportunity h1 {
+        font-size: 25px;
+    }
+
+    .opportunity p {
+        font-size: 20px;
+    }
+
+    .opportunity img {
+        width: 300px;
+        margin-top: 30px;
+    }
+
+    .opportunity-dis,
+    .opportunity-last {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .opportunity a {
+        padding: 6px;
+        font-size: 18px;
+    }
+}
+
+
+
+.portfolio a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    background-color: rgb(204, 191, 191);
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.portfolio h1 {
+    font-size: 40px;
+    color: white;
+    margin-top: -20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+.portfolio p {
+    font-size: 20px;
+    color: white;
+    margin-top: -20px;
+
+}
+
+@media (min-width: 1200px) {
+    .portfolio {
+        background-color: rgb(33, 33, 33);
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+        padding: 50px;
+        height: 50px;
+        margin: 50px;
+    }
+
+    .inner-portfolio {
+        margin-top: 15px;
+    }
+
+    .portfolio h1 {
+        font-size: 35px;
+    }
+
+    .portfolio p {
+        font-size: 20px;
+    }
+
+    .portfolio a {
+        font-size: 18px;
+        padding: 8px;
+    }
+}
+
+/* For medium devices (tablets, 768px to 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+
+    .portfolio {
+        background-color: rgb(33, 33, 33);
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+        padding: 50px;
+        height: 50px;
+        margin: 50px;
+    }
+
+    .inner-portfolio {
+        margin-top: 15px;
+    }
+
+    .portfolio h1 {
+        font-size: 30px;
+    }
+
+    .portfolio p {
+        font-size: 16px;
+    }
+
+    .portfolio a {
+        font-size: 16px;
+        padding: 8px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+/* For small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+
+    .portfolio {
+        background-color: rgb(33, 33, 33);
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+        padding: 50px;
+        padding: 10px;
+        margin: 20px;
+        margin-top: 40px;
+    }
+
+    .inner-portfolio {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .portfolio h1 {
+        font-size: 25px;
+        margin-top: 10px;
+
+    }
+
+    .portfolio p {
+        font-size: 14px;
+    }
+
+    .portfolio a {
+        font-size: 14px;
+        padding: 6px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+/* For extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+
+    .portfolio {
+        background-color: rgb(33, 33, 33);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 20px;
+        padding: 50px;
+        padding: 30px;
+        margin: 10px;
+        margin-top: 40px;
+    }
+
+    .inner-portfolio {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .portfolio h1 {
+        font-size: 35px;
+        margin-top: 10px;
+        text-align: left;
+
+    }
+
+    .portfolio p {
+        font-size: 20px;
+        margin-top: 8px;
+        text-align: left;
+
+
+    }
+
+    .portfolio a {
+        font-size: 20px;
+        padding: 5px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+        text-align: center;
+
+    }
+}
+
+
+.grow {
+    text-align: center;
+    margin: 50px;
+    color: rgb(50, 50, 50);
+
+
+}
+
+.grow h1 {
+    font-size: 40px;
+    margin-top: 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.grow p {
+    font-size: 23px;
+    margin-top: -15px;
+    color: rgba(209, 204, 204, 0.852);
+
+
+}
+
+
+
+.inner-grow h2 {
+    margin-top: -15px;
+    font-size: 30px;
+}
+
+@media (min-width: 1200px) {
+    .grow h1 {
+        font-size: 40px;
+    }
+
+    .grow p {
+        font-size: 22px;
+    }
+
+    .inner-grow {
+        background-color: rgb(33, 33, 33);
+        border-radius: 20px;
+        padding: 50px;
+        height: 25px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        margin-top: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+
+    }
+
+    .inner-grow h2 {
+        font-size: 28px;
+    }
+}
+
+/* For medium devices (tablets, 768px to 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .grow {
+        margin: 40px;
+    }
+
+    .grow h1 {
+        font-size: 35px;
+    }
+
+    .grow p {
+        font-size: 20px;
+    }
+
+    .inner-grow {
+        padding: 40px 80px;
+
+    }
+
+    .inner-grow {
+        background-color: rgb(33, 33, 33);
+        border-radius: 20px;
+        padding: 50px;
+        height: 25px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        margin-top: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+        align-items: center;
+
+    }
+
+    .inner-grow h2 {
+        font-size: 26px;
+        text-align: center;
+    }
+}
+
+/* For small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    .grow {
+        margin: 30px;
+    }
+
+    .inner-grow {
+        background-color: rgb(33, 33, 33);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: white;
+        margin-top: 30px;
+        align-items: center;
+        text-align: center;
+        padding: 20px 20px;
+    }
+
+    .grow h1 {
+        font-size: 30px;
+    }
+
+    .grow p {
+        font-size: 18px;
+    }
+
+    .inner-grow {
+        padding: 30px 40px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .inner-grow h2 {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 20px;
+
+    }
+}
+
+/* For extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    .grow {
+        margin: 10px;
+    }
+
+    .grow h1 {
+        font-size: 35px;
+        margin-top: 60px;
+    }
+
+    .grow p {
+        font-size: 20px;
+    }
+
+    .inner-grow {
+        background-color: rgb(33, 33, 33);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: white;
+        margin-top: 30px;
+        align-items: center;
+        text-align: center;
+        padding: 20px 20px;
+    }
+
+    .inner-grow h2 {
+        font-size: 27px;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.reviews {
+    margin: 80px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(50, 50, 50);
+}
+
+
+.reviews td {
+    font-size: 20px;
+}
+
+
+.star-rating {
+    font-size: 15px;
+    color: rgb(141, 2, 183);
+
+}
+
+@media (min-width: 1200px) {
+    .reviews {
+        margin: 70px;
+        font-size: 24px;
+    }
+
+    .reviews td {
+        font-size: 18px;
+    }
+
+    .star-rating {
+        font-size: 14px;
+    }
+
+    .reviews-table {
+        display: flex;
+
+    }
+}
+
+/* For medium devices (tablets, 768px to 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .reviews {
+        margin: 60px;
+        font-size: 22px;
+    }
+
+    .reviews td {
+        font-size: 17px;
+    }
+
+    .star-rating {
+        font-size: 13px;
+    }
+
+    .reviews-table {
+        display: flex;
+
+    }
+}
+
+/* For small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    .reviews {
+        margin: 50px;
+        font-size: 20px;
+    }
+
+    .reviews td {
+        font-size: 16px;
+    }
+
+    .star-rating {
+        font-size: 12px;
+    }
+
+    .reviews-table {
+        display: flex;
+
+    }
+}
+
+/* For extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    .reviews {
+        margin: 40px;
+        font-size: 20px;
+    }
+
+    .reviews td {
+        font-size: 20px;
+    }
+
+    .star-rating {
+        font-size: 15px;
+    }
+
+    .reviews-table {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+
+    }
+}
+
+.work,
+.faqs,
+.team {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    color: rgb(50, 50, 50);
+
+}
+
+
+.headofall {
+    width: 500px;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+.headofall h1 {
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.work p {
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+
+.inner-work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-content {
+    width: 350px;
+    font-size: 18px;
+    margin: 30px;
+}
+
+.team p {
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+
+.inner-team {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team-content {
+    width: 350px;
+    font-size: 18px;
+    margin: 30px;
+}
+
+
+
+.faqs p {
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+
+.inner-faqs {
+    width: 1150px;
+    font-size: 18px;
+    margin: 30px;
+}
+
+@media (min-width: 1200px) {
+
+    .work,
+    .faqs,
+    .team {
+        margin: 40px;
+    }
+
+    .team-content img {
+        width: 100px;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+
+    .headofall {
+        width: 500px;
+    }
+
+    .work-content,
+    .team-content {
+        width: 350px;
+    }
+
+    .inner-faqs {
+        width: 1150px;
+    }
+}
+
+/* For medium devices (tablets, 768px to 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+
+    .work,
+    .faqs,
+    .team {
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+    }
+
+    .team-content img {
+        width: 100px;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+
+    .headofall {
+        width: 80%;
+        margin-right: 0;
+    }
+
+    .headofall h1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .work p,
+    .team p,
+    .faqs p {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .work-content,
+    .team-content {
+        width: 80%;
+        margin: 20px;
+    }
+
+    .inner-faqs {
+        width: 90%;
+    }
+}
+
+/* For small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+
+    .work,
+    .faqs,
+    .team {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .team-content img {
+        width: 100px;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+
+    .headofall {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    .headofall h1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .work p,
+    .team p,
+    .faqs p {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .work-content,
+    .team-content {
+        width: 90%;
+        margin: 15px;
+    }
+
+    .inner-faqs {
+        width: 95%;
+    }
+}
+
+/* For extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+
+    .work,
+    .faqs,
+    .team {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .team-content img {
+        width: 100px;
+        border-radius: 10px;
+        margin-left: 0px;
+    }
+
+    .headofall {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .headofall h1 {
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .work p,
+    .team p,
+    .faqs p {
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .work-content,
+    .team-content {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .inner-faqs {
+        width: 100%;
+    }
+}
+
+.contactus {
+    margin: 50px;
+    font-size: 23px;
+
+}
+
+.contactus-h1 {
+
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.inner-contactus {
+    box-shadow: 0px 3px 20px 0.1px rgb(218, 215, 215);
+    border-radius: 10px;
+    padding: 30px;
+    width: 600px;
+    font-size: 18px;
+    margin: 50px;
+    margin-left: 290px;
+    color: rgb(214, 143, 143);
+    background-image: linear-gradient(to top right, rgba(255, 255, 255, 0.051), rgba(230, 230, 230, 0.768));
+}
+
+.inner-contactus input {
+    width: 580px;
+    height: 20px;
+    padding: 7px;
+    margin-bottom: 18px;
+    outline: none;
+    border: none;
+    border: 0.5px solid rgba(219, 218, 218, 0.619);
+
+}
+
+.contactusdiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactusdiv input {
+    width: 270px;
+}
+
+.inner-contactus p {
+    font-size: 15px;
+}
+
+.inner-contactus button {
+    width: 590px;
+    border-radius: 20px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.custom-textarea {
+    outline: none;
+    border: 0.5px solid rgb(219, 218, 218);
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#cck {
+    width: 15px;
+}
+
+@media (min-width: 1200px) {
+
+    .contactus {
+        margin: 50px;
+        font-size: 23px;
+    }
+
+    .inner-contactus {
+        width: 600px;
+        margin-left: 290px;
+    }
+
+    .inner-contactus input {
+        width: 580px;
+    }
+
+    .inner-contactus button {
+        width: 590px;
+    }
+
+    .contactusdiv {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contactusdiv input {
+        width: 270px;
+    }
+
+    .custom-textarea {
+        font-size: 16px;
+    }
+}
+
+/* For medium devices (tablets, 768px to 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .contactus {
+        margin: 40px;
+        font-size: 20px;
+    }
+
+    .inner-contactus {
+        width: 80%;
+        margin-left: 0;
+        padding: 20px;
+        margin-left: 60px;
+
+    }
+
+    .inner-contactus input {
+        width: 100%;
+    }
+
+    .contactusdiv {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contactusdiv input {
+        width: 370px;
+    }
+
+    .contactusdiv input {
+        width: 100%;
+    }
+
+    .inner-contactus button {
+        width: 100%;
+    }
+
+    .custom-textarea {
+        font-size: 15px;
+    }
+}
+
+/* For small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    .contactus {
+        margin: 30px;
+        font-size: 18px;
+    }
+
+    .inner-contactus {
+        width: 90%;
+        margin: 0;
+        padding: 15px;
+    }
+
+    .inner-contactus input {
+        width: 97%;
+    }
+
+    .contactusdiv {
+        flex-direction: column;
+    }
+
+    .contactusdiv input {
+        width: 97%;
+    }
+
+    .inner-contactus button {
+        width: 100%;
+    }
+
+    .custom-textarea {
+        font-size: 14px;
+        width: 100%;
+    }
+}
+
+/* For extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    .contactus {
+        margin: 10px;
+        font-size: 16px;
+    }
+
+    .inner-contactus {
+        width: 100%;
+        margin: 0;
+        padding: 5px;
+    }
+
+    .inner-contactus input {
+        width: 95%;
+    }
+
+    .contactusdiv {
+        flex-direction: column;
+    }
+
+    .contactusdiv input {
+        width: 95%;
+    }
+
+    .inner-contactus button {
+        width: 95%;
+    }
+
+    .custom-textarea {
+        font-size: 13px;
+        width: 100%;
+    }
+}
