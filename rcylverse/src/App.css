@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     padding-top: 80px;
-    
+
 
 }
 
@@ -118,6 +118,7 @@ Link {
     .navpara p {
         font-size: 22px;
     }
+
     .navbutton a,
     Link {
         display: flex;
@@ -157,6 +158,7 @@ Link {
     .navpara p {
         font-size: 20px;
     }
+
     .navbutton a,
     Link {
         display: flex;
@@ -188,7 +190,7 @@ Link {
         font-size: 18px;
     }
 
-    
+
 
     .navbutton a,
     Link {
@@ -209,7 +211,7 @@ Link {
 
 @media (min-width:768px) and (max-width:1199px) {
     .inner-content {
-        margin: 70px;
+        margin: 50px;
     }
 }
 
@@ -217,10 +219,10 @@ Link {
     .inner-content {
         margin: 30px;
     }
-    
+
 }
-@media (max-width: 575px)
-{
+
+@media (max-width: 575px) {
     .inner-content {
         margin: 0px;
     }
@@ -301,10 +303,10 @@ Link {
     background-color: rgb(25, 24, 24);
     border-radius: 20px;
     overflow: hidden;
-    margin-bottom: 20px;
+    margin: 10px;
+    margin-bottom: 30px;
     flex: 1 1 calc(33.333% - 20px);
     /* Allows for three items per row with spacing */
-    margin: 10px;
 }
 
 .grabimg img {
@@ -530,9 +532,9 @@ Link {
     padding: 50px;
     display: flex;
     justify-content: space-between;
-    color: white;
-    border-radius: 20px;
+    border-radius: 10px;
     margin-top: 50px;
+    box-shadow: 0px 0px 20px 1px rgb(104, 102, 102);
 }
 
 .mostliked img {
@@ -542,11 +544,17 @@ Link {
 .mostliked h1 {
     font-size: 50px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin-top: 10px;
 
 }
 
 .mostliked p {
     font-size: 25px;
+    color: rgba(255, 255, 255, 0.679);
+    margin-top: -10px;
+
+
 }
 
 .mostliked a {
@@ -564,14 +572,17 @@ Link {
 
 .overlike {
     border: 1px solid white;
-    border-radius: 20px;
+    border-radius: 10px;
     margin-top: 80px;
     padding: 20px;
     width: 450px;
 }
 
 .overlike p {
-    font-size: 17px;
+    font-size: 15px;
+    margin-top: 20px;
+    
+
 
 }
 
@@ -593,7 +604,7 @@ Link {
 
 @media (min-width: 1200px) {
     .mostliked img {
-        width: 500px;
+        width: 45%;
     }
 
     .mostliked {
@@ -606,6 +617,9 @@ Link {
 
     .mostliked p {
         font-size: 22px;
+    }
+    .overlike p {
+        font-size: 18px;
     }
 
     .like-content {
@@ -670,6 +684,10 @@ Link {
         font-size: 15px;
 
     }
+    .overlike p {
+        font-size: 15px;
+    
+    }
 }
 
 /* For small devices (landscape phones, less than 768px) */
@@ -719,6 +737,10 @@ Link {
         height: 30px;
         font-size: 15px;
 
+    }
+    .overlike p {
+        font-size: 14px;
+    
     }
 }
 
@@ -770,7 +792,12 @@ Link {
         width: 25px;
         height: 25px;
     }
+    .overlike p {
+        font-size: 15px;
+    
+    }
 }
+
 
 
 
@@ -819,7 +846,7 @@ Link {
 .img-slide {
     display: flex;
     width: calc(200%);
-    animation: scroll 20s linear infinite;
+    animation: scroll 30s linear infinite;
 }
 
 .img-slide img {
@@ -851,11 +878,11 @@ Link {
     }
 
     .brand p {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .img-slide img {
-        height: 30px;
+        height: 35px;
     }
 }
 
@@ -864,6 +891,7 @@ Link {
     .brand h1 {
         font-size: 40px;
     }
+
     .brand {
         margin: 50px;
         text-align: center;
@@ -886,6 +914,7 @@ Link {
     .brand h1 {
         font-size: 35px;
     }
+
     .brand {
         margin: 50px;
         text-align: center;
@@ -935,11 +964,11 @@ Link {
 
 .tprojects-h1 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 100px;
 }
 
 .inner-tprojects {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 
 }
@@ -954,8 +983,8 @@ Link {
     width: 280px;
     background-color: rgb(28, 27, 27);
     color: white;
-    padding: 30px;
-    margin: 10px;
+    padding: 25px;
+    margin: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px rgb(164, 163, 163);
 }
@@ -1000,12 +1029,15 @@ Link {
     }
 
     .tproject-content {
-        width: 260px;
+        width: 30%;
         margin: 15px;
     }
 
     .tproject-content button {
         padding: 10px;
+    }
+    .inner-tprojects {
+        justify-content: space-between;
     }
 }
 
@@ -1107,15 +1139,16 @@ Link {
 
 @media (min-width: 1200px) {
     .opportunity h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .opportunity p {
         font-size: 22px;
+        margin-top: -15px;
     }
 
     .opportunity img {
-        width: 450px;
+        width: 490px;
     }
 
     .opportunity-dis,
@@ -1139,12 +1172,13 @@ Link {
     }
 
     .opportunity img {
-        width: 400px;
+        width: 50%;
     }
 
     .opportunity-dis,
     .opportunity-last {
         width: 400px;
+        margin: 20px;
         margin-top: 10%;
     }
 }
@@ -1174,6 +1208,8 @@ Link {
 
     .opportunity img {
         width: 350px;
+        margin-top: 30px;
+
     }
 
     .opportunity-dis,
@@ -1242,7 +1278,7 @@ Link {
 
 .portfolio p {
     font-size: 20px;
-    color: white;
+    color: rgba(209, 204, 204, 0.852);
     margin-top: -20px;
 
 }
@@ -1254,7 +1290,7 @@ Link {
         justify-content: space-between;
         border-radius: 20px;
         padding: 50px;
-        height: 50px;
+        height: 45px;
         margin: 50px;
     }
 
@@ -1272,7 +1308,7 @@ Link {
 
     .portfolio a {
         font-size: 18px;
-        padding: 8px;
+        padding: 10px;
     }
 }
 
@@ -1399,7 +1435,7 @@ Link {
 .grow {
     text-align: center;
     margin: 50px;
-    color: rgb(50, 50, 50);
+    color: #343a40;
 
 
 }
@@ -1413,16 +1449,15 @@ Link {
 .grow p {
     font-size: 23px;
     margin-top: -15px;
-    color: rgba(209, 204, 204, 0.852);
-
-
+    color: #343a40;
 }
-
-
 
 .inner-grow h2 {
     margin-top: -15px;
     font-size: 30px;
+}
+.inner-grow p{
+    color: rgba(209, 204, 204, 0.852);
 }
 
 @media (min-width: 1200px) {
@@ -1432,6 +1467,7 @@ Link {
 
     .grow p {
         font-size: 22px;
+        
     }
 
     .inner-grow {
@@ -1449,7 +1485,7 @@ Link {
     }
 
     .inner-grow h2 {
-        font-size: 28px;
+        font-size: 30px;
     }
 }
 
@@ -1592,11 +1628,12 @@ Link {
 @media (min-width: 1200px) {
     .reviews {
         margin: 70px;
-        font-size: 24px;
+        margin-top: 100px;
+        font-size: 25px;
     }
 
     .reviews td {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .star-rating {
@@ -1605,6 +1642,7 @@ Link {
 
     .reviews-table {
         display: flex;
+        justify-content: space-between;
 
     }
 }
@@ -1687,8 +1725,12 @@ Link {
 
 .headofall {
     width: 500px;
-    font-size: 18px;
     margin-right: 50px;
+    font-size: 20px;
+}
+
+.headofall p {
+    margin-top: -10px;
 }
 
 .headofall h1 {
@@ -1700,6 +1742,14 @@ Link {
 .work p {
     margin-left: 20px;
     font-size: 20px;
+    margin-top: -15px;
+
+}
+
+.work h3 {
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 5px;
 
 }
 

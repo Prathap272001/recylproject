@@ -289,7 +289,7 @@ function Land() {
                 <ScrollTrigger onEnter={() => setscrolltrigger(true)}>
                     <div className='grow'>
                         <h1>Grow and earn with us!</h1>
-                        <p style={{ color: "black" }}>Over thousands have leveraged Project Marketplace to kickstart ventures and transform ideas into businesses.</p>
+                        <p> Over thousands have leveraged Project Marketplace to kickstart ventures and transform ideas into businesses.</p>
                         <div className='inner-grow'>
                             <div>
                                 <h2>{scrolltrigger && (<CountUp style={{ color: "white" }} start={0} end={5000} duration={2} delay={0}></CountUp>)} +</h2>
@@ -378,19 +378,19 @@ function Land() {
                     </div>
                     <div className='inner-work'>
                         <div className='work-content'>
-                            <HiFire style={{ marginLeft: "18px" }} />
-                            <p>Create account
-                                List your project in a few clicks, set your price, and you're ready to connect with buyers worldwide.</p>
+                            <HiFire style={{ marginLeft: "20px", fontSize:"25px" }} />
+                            <h3>Create account</h3>
+                            <p> List your project in a few clicks, set your price, and you're ready to connect with buyers worldwide.</p>
                         </div>
                         <div className='work-content'>
-                            <BsClockFill style={{ marginLeft: "18px" }} />
-                            <p>List the project
-                                Filter projects by category, price, or popularity to find exactly what you're looking for, quickly and efficiently.</p>
+                            <BsClockFill style={{ marginLeft: "20px",fontSize:"20px" }} />
+                            <h3>List the project</h3>
+                            <p>Filter projects by category, price, or popularity to find exactly what you're looking for, quickly and efficiently.</p>
                         </div>
                         <div className='work-content'>
-                            <IoMdCloud style={{ marginLeft: "18px" }} />
-                            <p>Earn lifetime!
-                                Transactions are secured with end-to-end encryption, ensuring safety for buyer and seller funds.</p>
+                            <IoMdCloud style={{ marginLeft: "20px",fontSize:"25px" }} />
+                            <h3>Earn lifetime!</h3>
+                            <p>Transactions are secured with end-to-end encryption, ensuring safety for buyer and seller funds.</p>
                         </div>
                     </div>
                 </div>
