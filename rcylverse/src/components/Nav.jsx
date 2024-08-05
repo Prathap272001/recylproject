@@ -54,14 +54,20 @@ function Nav() {
                     <a href="">About Us</a>
                     <a href=""><IoMdNotifications style={{ fontSize: "27px", marginBottom: "-8px" }} /></a>
                     <a href=""><RiMessage2Line style={{ fontSize: "27px", marginBottom: "-8px", textAlign: "center" }} /></a>
-                    <a id='serh'>Search</a>
                     <ReactSearchAutocomplete
                         items={items}
                         onSearch={handleOnSearch}
                         onHover={handleOnHover}
                         onSelect={handleOnSelect}
-                        placeholder="Type to search"
+                        placeholder="Type to search... "
                         className='search'
+                        styling={{
+                            backgroundColor: 'black', 
+                            color: 'white',  
+                            height:"42px",
+                            placeholderColor:"#ffffffbc",
+                            iconColor:"#ffffffbc"
+                          }}
                     />
 
                 </div>

@@ -50,8 +50,8 @@ Link {
 
 .navpara h1 {
     font-size: 60px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 800;
     text-align: left;
 
 }
@@ -59,8 +59,10 @@ Link {
 .navpara h3 {
     font-size: 20px;
     margin-top: 50px;
-    color: purple;
+    color: #9c36b5;
     text-align: left;
+    font-family: 'Merriweather', serif;
+
 
 
 }
@@ -69,6 +71,10 @@ Link {
     font-size: 25px;
     margin-bottom: 30px;
     text-align: left;
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
+
+
 
 }
 
@@ -90,7 +96,7 @@ Link {
     }
 
     .navpara p {
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 
@@ -116,7 +122,7 @@ Link {
     }
 
     .navpara p {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .navbutton a,
@@ -156,7 +162,7 @@ Link {
     }
 
     .navpara p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .navbutton a,
@@ -211,13 +217,13 @@ Link {
 
 @media (min-width:768px) and (max-width:1199px) {
     .inner-content {
-        margin: 50px;
+        margin: 20px;
     }
 }
 
 @media (max-width:767px) {
     .inner-content {
-        margin: 30px;
+        margin: 20px;
     }
 
 }
@@ -284,11 +290,13 @@ Link {
 
 .grab-h1 {
     font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    
 }
 
 .grab-p {
     font-size: 25px;
+    font-family: 'Merriweather', serif;
 }
 
 .inner-grab {
@@ -325,14 +333,19 @@ Link {
     padding-right: 20px;
     color: rgba(216, 216, 216, 0.845);
     padding-bottom: 20px;
-    font-size: 17px;
+    font-size: 15px;
     margin-top: -10px;
+    font-family: 'Merriweather', serif;
+
 }
 
 .grabimg h3 {
+    font-size: 15px;
     padding-left: 20px;
     padding-right: 20px;
     color: white;
+    font-family: 'Merriweather', serif;
+
 }
 
 /* Media Queries */
@@ -349,7 +362,7 @@ Link {
     }
 
     .grab-p {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .grabimg {
@@ -364,7 +377,7 @@ Link {
     }
 
     .grab-p {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .grabimg {
@@ -380,7 +393,7 @@ Link {
     }
 
     .grab-p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .grabimg {
@@ -408,7 +421,7 @@ Link {
 
 @media (min-width: 1200px) {
     .sellorbuy img {
-        width: 70%;
+        width: 85%;
         margin-left: 150px;
     }
 
@@ -425,8 +438,13 @@ Link {
     }
 
     .inner-sellorbuy {
+        display: flex;
+        flex-direction: column;
         align-items: center;
-        margin: 20px;
+        justify-content: space-between;
+        margin: 10px;
+        margin-bottom: 50px;
+        height: 350px;
     }
 
     .ssb {
@@ -525,6 +543,9 @@ Link {
 .ssb h1 {
     margin-bottom: 10px;
     margin-top: 10px;
+    font-family: 'Merriweather', serif;
+    
+
 }
 
 .mostliked {
@@ -543,16 +564,19 @@ Link {
 
 .mostliked h1 {
     font-size: 50px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     margin-top: 10px;
+    font-family: 'Libre Franklin', sans-serif;
+
 
 }
 
 .mostliked p {
-    font-size: 25px;
+    font-size: 20px;
     color: rgba(255, 255, 255, 0.679);
     margin-top: -10px;
+    font-family: 'Merriweather', serif;
+
 
 
 }
@@ -581,7 +605,9 @@ Link {
 .overlike p {
     font-size: 15px;
     margin-top: 20px;
-    
+    font-family: 'Merriweather', serif;
+
+
 
 
 }
@@ -616,10 +642,11 @@ Link {
     }
 
     .mostliked p {
-        font-size: 22px;
+        font-size: 20px;
     }
+
     .overlike p {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .like-content {
@@ -684,9 +711,10 @@ Link {
         font-size: 15px;
 
     }
+
     .overlike p {
         font-size: 15px;
-    
+
     }
 }
 
@@ -738,9 +766,10 @@ Link {
         font-size: 15px;
 
     }
+
     .overlike p {
         font-size: 14px;
-    
+
     }
 }
 
@@ -792,24 +821,23 @@ Link {
         width: 25px;
         height: 25px;
     }
+
     .overlike p {
         font-size: 15px;
-    
+
     }
 }
 
-
-
-
 .brand h1 {
     font-size: 50px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 .brand p {
     font-size: 23px;
     margin-top: -20px;
+    font-family: 'Merriweather', serif;
+
 }
 
 .brand-img {
@@ -846,7 +874,7 @@ Link {
 .img-slide {
     display: flex;
     width: calc(200%);
-    animation: scroll 30s linear infinite;
+    animation: scroll 50s linear infinite;
 }
 
 .img-slide img {
@@ -878,7 +906,7 @@ Link {
     }
 
     .brand p {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .img-slide img {
@@ -963,7 +991,7 @@ Link {
 }
 
 .tprojects-h1 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
     margin-top: 100px;
 }
 
@@ -976,6 +1004,9 @@ Link {
 .inner-tprojects h3 {
     margin-top: 10px;
     color: #ececec;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+
 }
 
 .tproject-content {
@@ -987,11 +1018,17 @@ Link {
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px rgb(164, 163, 163);
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+    position: relative;
 }
 
 .tproject-content p {
     color: rgba(255, 255, 255, 0.679);
-    margin-top: -15px;
+    margin-top: -5px;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+
 }
 
 .tproject-content img {
@@ -1010,10 +1047,34 @@ Link {
     color: black;
 }
 
+.front {
+    backface-visibility: hidden;
+}
+
+.back {
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    position: absolute;
+    padding: 30px;
+    top: 0;
+}
+
+.isflip {
+    transform: rotateY(180deg);
+
+}
+
+
+
+
+
+
+
+
 @media (min-width: 1200px) {
     .tprojects {
         margin: 50px 50px;
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .tproject-content {
@@ -1025,7 +1086,7 @@ Link {
 @media (min-width: 768px) and (max-width: 1199px) {
     .tprojects {
         margin: 40px 60px;
-        font-size: 21px;
+        font-size: 20px;
     }
 
     .tproject-content {
@@ -1036,6 +1097,7 @@ Link {
     .tproject-content button {
         padding: 10px;
     }
+
     .inner-tprojects {
         justify-content: space-between;
     }
@@ -1087,16 +1149,21 @@ Link {
 }
 
 .opportunity-h1 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    font-family: 'Libre Franklin', sans-serif;
 
 }
 
 .opportunity h1 {
     font-size: 45px;
+    font-family: 'Merriweather', serif;
+
 }
 
 .opportunity p {
-    font-size: 23px;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+
 }
 
 .opportunity-content {
@@ -1134,7 +1201,7 @@ Link {
 }
 
 .opportunity-content h1 {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 @media (min-width: 1200px) {
@@ -1143,7 +1210,7 @@ Link {
     }
 
     .opportunity p {
-        font-size: 22px;
+        font-size: 18px;
         margin-top: -15px;
     }
 
@@ -1271,15 +1338,16 @@ Link {
     font-size: 40px;
     color: white;
     margin-top: -20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+    font-family: 'Libre Franklin', sans-serif;
 
 }
 
 .portfolio p {
-    font-size: 20px;
+    font-size: 18px;
     color: rgba(209, 204, 204, 0.852);
     margin-top: -20px;
+    font-family: 'Merriweather', serif;
+
 
 }
 
@@ -1290,7 +1358,7 @@ Link {
         justify-content: space-between;
         border-radius: 20px;
         padding: 50px;
-        height: 45px;
+        height: 40px;
         margin: 50px;
     }
 
@@ -1303,7 +1371,7 @@ Link {
     }
 
     .portfolio p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .portfolio a {
@@ -1320,17 +1388,22 @@ Link {
         display: flex;
         justify-content: space-between;
         border-radius: 20px;
-        padding: 50px;
+        padding-left: 30px;
+        padding-top:40px;
+        padding-bottom: 60px;
         height: 50px;
         margin: 50px;
     }
 
     .inner-portfolio {
         margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -20px;
     }
 
     .portfolio h1 {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .portfolio p {
@@ -1340,7 +1413,7 @@ Link {
     .portfolio a {
         font-size: 16px;
         padding: 8px;
-        margin-left: 0;
+        margin-left: 20px;
         margin-top: 10px;
     }
 }
@@ -1443,21 +1516,26 @@ Link {
 .grow h1 {
     font-size: 40px;
     margin-top: 80px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 .grow p {
-    font-size: 23px;
+    font-size: 18px;
     margin-top: -15px;
     color: #343a40;
+    font-family: 'Merriweather', serif;
+
 }
 
 .inner-grow h2 {
     margin-top: -15px;
     font-size: 30px;
 }
-.inner-grow p{
+
+.inner-grow p {
     color: rgba(209, 204, 204, 0.852);
+    font-family: 'Merriweather', serif;
+
 }
 
 @media (min-width: 1200px) {
@@ -1466,8 +1544,8 @@ Link {
     }
 
     .grow p {
-        font-size: 22px;
-        
+        font-size: 18px;
+
     }
 
     .inner-grow {
@@ -1500,7 +1578,7 @@ Link {
     }
 
     .grow p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .inner-grow {
@@ -1517,8 +1595,9 @@ Link {
         justify-content: space-between;
         color: white;
         margin-top: 30px;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-top: 70px;
+        padding-left: 30px;
+        padding-right: 30px;
         align-items: center;
 
     }
@@ -1583,7 +1662,7 @@ Link {
     }
 
     .grow p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .inner-grow {
@@ -1611,11 +1690,19 @@ Link {
     text-align: center;
     font-size: 25px;
     color: rgb(50, 50, 50);
+    font-family: 'Merriweather', serif;
+
 }
 
 
 .reviews td {
-    font-size: 20px;
+    font-size: 18px;
+
+}
+.reviews-table p
+{
+font-size: 15px;
+line-height: 1.6;
 }
 
 
@@ -1629,11 +1716,11 @@ Link {
     .reviews {
         margin: 70px;
         margin-top: 100px;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .reviews td {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .star-rating {
@@ -1731,18 +1818,22 @@ Link {
 
 .headofall p {
     margin-top: -10px;
+    font-family: 'Merriweather', serif;
+
 }
 
 .headofall h1 {
     margin-left: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 .work p {
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: -15px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
+    color: #343a40;
 
 }
 
@@ -1757,6 +1848,9 @@ Link {
     display: flex;
     flex-wrap: wrap;
 }
+.inner-work p{
+    font-size: 16px;
+}
 
 .work-content {
     width: 350px;
@@ -1766,13 +1860,20 @@ Link {
 
 .team p {
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    color: #343a40;
+    line-height: 1.6;
+
 
 }
 
 .inner-team {
     display: flex;
     flex-wrap: wrap;
+}
+.inner-team p{
+    font-size: 16px;
 }
 
 .team-content {
@@ -1785,7 +1886,10 @@ Link {
 
 .faqs p {
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
+
 
 }
 
@@ -1793,6 +1897,9 @@ Link {
     width: 1150px;
     font-size: 18px;
     margin: 30px;
+}
+.inner-faqs p{
+    font-size: 16px;
 }
 
 @media (min-width: 1200px) {
@@ -1966,7 +2073,8 @@ Link {
 .contactus-h1 {
 
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+
 }
 
 .inner-contactus {
@@ -2003,6 +2111,8 @@ Link {
 
 .inner-contactus p {
     font-size: 15px;
+    font-family: 'Merriweather', serif;
+
 }
 
 .inner-contactus button {
@@ -2030,7 +2140,7 @@ Link {
 
     .contactus {
         margin: 50px;
-        font-size: 23px;
+        font-size: 22px;
     }
 
     .inner-contactus {

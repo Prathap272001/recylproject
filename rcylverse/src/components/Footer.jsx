@@ -12,7 +12,7 @@ function Footer() {
             <footer >
                 <hr />
                 <div className='footer-content'>
-                    <div>
+                    <div className='footer-img'>
                         <p>Project-Recycleverse</p>
                         <img src="https://wpwhdp61xwxnbqd5.umso.co/lib_BIuFmmpqkRjGIzlY/tx0655jqfqogjuwu.png" alt="" /><br />
                         <a href=""><FaFacebook ></FaFacebook></a>

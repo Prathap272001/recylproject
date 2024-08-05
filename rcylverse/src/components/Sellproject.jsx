@@ -32,12 +32,11 @@ function Sellproject() {
             <Nav></Nav>
             <div className='belownav' id='topup'>
                 <div className='navpara'>
-
-                    <h1>Unleash your </h1>
-                    <h1 style={{ color: "rgb(121, 80, 242)" }}>Creativity</h1>
+                    <h1 style={{marginBottom:"-30px"}}>Unleash your </h1>
+                    <h1 style={{ color: "rgb(121, 80, 242)", marginBottom:"10px" }}>Creativity</h1>
                     <p>Upload, Verify and Sell your Projects.</p>
                     <div className='navbutton' >
-                        <a href="">Myspace</a>
+                        <Link to={'/myspace'}>Myspace</Link>
                         <a href="">My Products</a>
                     </div>
                 </div>
@@ -48,7 +47,7 @@ function Sellproject() {
                 <div className='mydash'>
                     <h3>Manage Profile</h3>
                     <h1>My Dashboard</h1>
-                    <p>All Projects</p>
+                    <p style={{fontSize:"25px"}}>All Projects</p>
                     <div className='projectdrop'>
 
                     </div>

@@ -5,12 +5,17 @@
 }
 
 .mydash h1 {
-    font-size: 40px;
+    font-size: 30px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: bold;
+    font-style: italic; 
+   
 
 }
-
-.mydash p {
-    margin-left: -20px;
+.mydash p
+{
+ font-style: italic; /* Lean */
+ font-family: 'Merriweather', serif;
 }
 
 .inner-mydash {
@@ -34,8 +39,6 @@
     width: 665px;
     border-radius: 20px;
     margin-top: 50px;
-
-
 }
 
 .inner-content21 {

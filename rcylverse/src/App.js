@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Land from './components/Land';
 import Sellproject from './components/Sellproject';
 import Nav from './components/Nav';
+import Myspace from './components/Myspace';
 function App() {
   return (
   
@@ -15,6 +16,7 @@ function App() {
       <Route path='/nav' element={<Nav></Nav>} />
       <Route path='/footer' element={<Footer></Footer>} />
       <Route path='/selpro' element={<Sellproject/>} />
+      <Route path='/myspace' element={<Myspace/>} />
 
 
 

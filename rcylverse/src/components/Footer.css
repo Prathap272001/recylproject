@@ -4,6 +4,10 @@
         margin-left: 100px;
         margin-right: 100px;
     }
+    .footer-img
+    {
+        margin-top: -100px;
+    }
 
     .footer-content div {
         margin-bottom: 20px;
@@ -12,6 +16,7 @@
     .footer-content td {
         width: 100px;
         padding: 3px;
+        font-size: 15px;
     }
 
     .footer-content input {
@@ -23,14 +28,56 @@
     }
     .news {
         text-align: center;
-        margin-top: -15px;
+        margin-top: -55px;
+    }
+}
+@media (min-width:768px) and (max-width:1199px)
+{
+    .footer-content {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .footer-content img {
+        width: 120px;
+    }
+
+    .footer-content a {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    .footer-content td {
+        width: 90px;
+        padding: 2px;
+    }
+
+    .footer-content input {
+        width: 100%;
+    }
+    .news input
+    {
+        height: 27px;
+        width: 200px;
+    }
+
+    .news 
+    {
+        font-size: 15px;
+        text-align: center;
+        margin-left: 25%;
+        margin-top: 20px;
+    }
+    .footer-content table {
+        margin-left: 50px;
+
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .footer-content {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .footer-content img {
@@ -76,6 +123,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        
     }
 
     .footer-content img {
@@ -128,17 +176,22 @@
 
 .footer-content img {
     width: 150px;
+    margin: -10px -5px;
+    margin-bottom: 5px;
 }
 
 .footer-content a {
     color: black;
     font-size: 22px;
     margin-right: 15px;
+
 }
 
 .footer-content td {
     width: 130px;
     padding: 5px;
+    font-family: 'Libre Franklin', sans-serif;
+
 }
 .news {
     text-align: center;
@@ -150,16 +203,23 @@
     font-size: 15px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: -410px;
+    margin: 5px 0px;
     margin-bottom: 10px;
     border: none;
     border: 1px solid rgb(155, 152, 152);
 }
+.news h2{
+    font-family: 'Libre Franklin', sans-serif;
 
+
+}
 .news p {
-    padding-bottom: 20px;
-    font-size: 15px;
+    font-size: 12px;
+    margin-top: -10px;
     width: 300px;
+    font-family: 'Merriweather', serif;
+
+    
 }
 
 
@@ -174,3 +234,4 @@
     color: white;
 
 }
+

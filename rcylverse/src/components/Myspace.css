@@ -1,0 +1,445 @@
+.belownav1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+
+
+}
+
+.navpara1 a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+#siup {
+    color: #2138a8;
+    padding: 0.4em 1em;
+    background: #edf2ff;
+    border-radius: 2em;
+    margin-right: 20px;
+}
+
+
+
+.navbutton1 a,
+Link {
+    background-color: rgb(204, 191, 191);
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.belownav1 img {
+    width: 750px;
+    margin-top: -150px;
+}
+
+.navpara1 {
+    margin-top: 80px;
+
+}
+
+.navpara1 h1 {
+    font-size: 50px;
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: left;
+
+}
+
+
+
+.navpara1 p {
+    font-size: 22px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
+
+
+
+}
+
+@media (min-width: 1200px) {
+    .belownav1 {
+        margin-left: 120px;
+    }
+
+    .belownav1 img {
+        width: 750px;
+    }
+
+    .navpara1 h1 {
+        font-size: 40px;
+    }
+
+
+    .navpara1 p {
+        font-size: 20px;
+    }
+}
+
+/* For medium devices (tablets, 768px to 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .belownav1 {
+        flex-direction: column;
+        margin-left: 50px;
+        padding-top: 60px;
+    }
+
+    .belownav1 img {
+        width: 600px;
+        margin-top: -50px;
+    }
+
+    .navpara1 h1 {
+        font-size: 50px;
+    }
+
+    .navpara1 h3 {
+        font-size: 18px;
+    }
+
+    .navpara1 p {
+        font-size: 22px;
+    }
+
+    .navbutton1 a,
+    Link {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 250px;
+    }
+}
+
+/* For small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    .belownav1 {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 30px;
+        padding-top: 40px;
+    }
+
+    .belownav1 img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .navpara1 {
+        margin-left: 0;
+    }
+
+    .navpara1 h1 {
+        font-size: 40px;
+    }
+
+    .navpara1 h3 {
+        font-size: 16px;
+    }
+
+    .navpara1 p {
+        font-size: 20px;
+    }
+
+    .navbutton1 a,
+    Link {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 250px;
+
+    }
+}
+
+/* For extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    .belownav1 {
+        padding-top: 30px;
+        margin-left: 30px;
+
+    }
+
+    .navpara1 h1 {
+        font-size: 35px;
+    }
+
+    .navpara1 h3 {
+        font-size: 15px;
+    }
+
+    .navpara1 p {
+        font-size: 18px;
+    }
+
+
+
+    .navbutton1 a,
+    Link {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        width: 250px;
+
+    }
+}
+
+.work1,
+.project-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    color: rgb(50, 50, 50);
+
+}
+
+
+.headofall1 {
+    width: 500px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.headofall1 p {
+    margin-top: -10px;
+    font-family: 'Merriweather', serif;
+
+}
+
+.headofall2 p {
+    margin-top: -10px;
+    font-family: 'Merriweather', serif;
+
+}
+
+.headofall1 h1 {
+    margin-left: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 900;
+
+}
+
+.headofall2 h1 {
+    margin-left: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 900;
+
+}
+
+.work1 p {
+    margin-left: 20px;
+    font-size: 18px;
+    margin-top: -15px;
+    font-family: 'Merriweather', serif;
+
+
+}
+
+.work1 h3 {
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 5px;
+
+}
+
+.inner-work1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-content1 {
+    width: 350px;
+    font-size: 18px;
+    margin: 30px;
+}
+
+.project-list p {
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
+
+
+}
+
+.inner-pl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pl-content {
+    width: 350px;
+    font-size: 18px;
+    margin: 30px;
+}
+
+.work-content1 p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+@media (min-width: 1200px) {
+
+    .work1,
+    .project-list {
+        margin: 40px;
+    }
+
+    .pl-content img {
+        width: 100px;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+
+    .headofall1 {
+        width: 540px;
+        padding-top: 20px;
+    }
+
+    .headofall2 {
+        width: 360px;
+
+    }
+
+
+    .pl-content {
+        width: 240px;
+    }
+
+    .work-content1 {
+        width: 370px;
+
+    }
+
+
+}
+
+/* For medium devices (tablets, 768px to 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+
+    .work1,
+    .project-list {
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+    }
+
+    .pl-content img {
+        width: 100px;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+
+    .headofall1 {
+        width: 80%;
+        margin-right: 0;
+    }
+
+    .headofall1 h1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .work1 p,
+    .project-list p {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .work-content1,
+    .pl-content {
+        width: 80%;
+        margin: 20px;
+    }
+
+
+}
+
+/* For small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+
+    .work1,
+    .project-list {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .pl-content img {
+        width: 100px;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+
+    .headofall1 {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    .headofall1 h1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .work1 p,
+    .project-list p {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .work-content1,
+    .pl-content {
+        width: 90%;
+        margin: 15px;
+    }
+
+
+}
+
+/* For extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+
+    .work1,
+    .project-list {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .pl-content img {
+        width: 100px;
+        border-radius: 10px;
+        margin-left: 0px;
+    }
+
+    .headofall1 {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .headofall1 h1 {
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .work1 p,
+    .project-list p {
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .work-content1,
+    .pl-content {
+        width: 100%;
+        margin: 10px;
+    }
+
+
+}

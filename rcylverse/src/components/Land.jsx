@@ -19,6 +19,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { FaBiohazard } from "react-icons/fa";
 import { MdAreaChart } from "react-icons/md";
 import Nav from './Nav';
+import {FaCode, FaBuilding } from 'react-icons/fa';
 
 
 
@@ -42,7 +43,44 @@ const StarRating = ({ rating }) => {
 
 function Land() {
     const [scrolltrigger, setscrolltrigger] = useState(false)
+    const [flip, setflip] = useState(false)
     const [scrollup, setscrollup] = useState(false)
+
+    const [backContentIndex, setBackContentIndex] = useState(0);
+
+    const backContents = [
+        {
+            icon: <img src="https://p9606ab2o9mfzx5m.umso.co/lib_LhuefaHhCaLhDedO/ixl95hqsrqobkq6s.svg?w=24&h=24&dpr=2" alt="" />,
+            title: 'Engineering',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+        },
+        {
+            icon: <FaBiohazard style={{ fontSize: '27px' }} />,
+            title: 'Bio',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
+        },
+        {
+            icon: <FaCode style={{ fontSize: '27px' }} />,
+            title: 'Software Development',
+            description: 'Developing robust and scalable software solutions...',
+        },
+        {
+            icon: <FaBuilding style={{ fontSize: '27px' }} />,
+            title: 'Architecture',
+            description: 'Designing sustainable and efficient architectural structures...',
+        },
+
+    ];
+    
+                            
+
+    const handleNextBack = () => {
+        setBackContentIndex((prevIndex) => (prevIndex + 1) % backContents.length);
+    };
+    const handlePrevBack = () => {
+        setBackContentIndex((prevIndex) => (prevIndex - 1) % backContents.length);
+    };
+
     const nav = useNavigate();
     return (
         <div>
@@ -189,6 +227,18 @@ function Land() {
                             <img src="https://wpwhdp61xwxnbqd5.umso.co/lib_RlIveqaGCTRDIbSf/133ugvf43x0psc82.svg?h=35&dpr=2" alt="" />
                             <img src="https://wpwhdp61xwxnbqd5.umso.co/lib_RlIveqaGCTRDIbSf/4rgex0ascb7yrgsa.svg?h=35&dpr=2" alt="" />
                             <img src="https://wpwhdp61xwxnbqd5.umso.co/lib_RlIveqaGCTRDIbSf/2a8vrw51vy1lz6ab.svg?h=35&dpr=2" alt="" />
+                            <img src="https://wpwhdp61xwxnbqd5.umso.co/lib_RlIveqaGCTRDIbSf/cftx5x40cssur9er.svg?h=35&dpr=2" alt="" />
+                            <img src="https://wpwhdp61xwxnbqd5.umso.co/lib_RlIveqaGCTRDIbSf/crl58tr3aum5qqxt.svg?h=35&dpr=2" alt="" />
+                            <img src="https://wpwhdp61xwxnbqd5.umso.co/lib_RlIveqaGCTRDIbSf/m94w5tqxbjg8vdoy.svg?h=35&dpr=2" alt="" />
+                            <img src="https://wpwhdp61xwxnbqd5.umso.co/lib_RlIveqaGCTRDIbSf/f2akjzux5n6kt1hq.svg?h=35&dpr=2" alt="" />
+                            <img src="https://wpwhdp61xwxnbqd5.umso.co/lib_RlIveqaGCTRDIbSf/ucqelacyxyc68bvz.svg?h=35&dpr=2" alt="" />
+                            <img src="https://wpwhdp61xwxnbqd5.umso.co/lib_RlIveqaGCTRDIbSf/2yrc335q2nikn4cc.svg?h=35&dpr=2" alt="" />
+                            <img src="https://wpwhdp61xwxnbqd5.umso.co/lib_RlIveqaGCTRDIbSf/6ovw3a4z6o5mtfzb.svg?h=35&dpr=2" alt="" />
+                            <img src="https://wpwhdp61xwxnbqd5.umso.co/lib_RlIveqaGCTRDIbSf/0dt47g3t2ffy7r28.svg?h=35&dpr=2" alt="" />
+                            <img src="https://wpwhdp61xwxnbqd5.umso.co/lib_RlIveqaGCTRDIbSf/133ugvf43x0psc82.svg?h=35&dpr=2" alt="" />
+                            <img src="https://wpwhdp61xwxnbqd5.umso.co/lib_RlIveqaGCTRDIbSf/4rgex0ascb7yrgsa.svg?h=35&dpr=2" alt="" />
+                            <img src="https://wpwhdp61xwxnbqd5.umso.co/lib_RlIveqaGCTRDIbSf/2a8vrw51vy1lz6ab.svg?h=35&dpr=2" alt="" />
+                            
                         </div>
 
                     </div>
@@ -198,11 +248,20 @@ function Land() {
                     <h1 className='tprojects-h1'>Top Trending Projects ➠</h1>
                     <p>Discover the Trend</p>
                     <div className='inner-tprojects'>
-                        <div className='tproject-content'>
-                            <img src="https://p9606ab2o9mfzx5m.umso.co/lib_LhuefaHhCaLhDedO/ixl95hqsrqobkq6s.svg?w=24&h=24&dpr=2" alt="" />
-                            <h3>Engineering</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                            <button>Next Project</button>
+                        <div className={`tproject-content ${flip ? 'isflip' : ''}`}>
+                            <div className='front'>
+                            {backContents[backContentIndex].icon}
+                                <h3>{backContents[backContentIndex].title}</h3>
+                                <p>{backContents[backContentIndex].description}</p>
+                                <button onClick={() => {setflip(true);handleNextBack()}}>Next Project</button>
+                                
+                            </div>
+                            <div className='back'>
+                                {backContents[backContentIndex].icon}
+                                <h3>{backContents[backContentIndex].title}</h3>
+                                <p>{backContents[backContentIndex].description}</p>
+                                <button onClick={() => {setflip(false);handleNextBack()}}>Next Project</button>
+                            </div>
                         </div>
                         <div className='tproject-content'>
                             <FaBiohazard style={{ fontSize: "27px" }} />
@@ -317,7 +376,7 @@ function Land() {
                                 <td><StarRating rating={4.5} /></td>
                             </tr>
                             <tr>
-                                <td><p style={{ fontWeight: "600" }}>"A Game-Changer for Selling Ideas"</p></td>
+                                <td><h4>"A Game-Changer for Selling Ideas"</h4></td>
                             </tr>
                             <tr>
                                 <td><p>"ProjectHub revolutionized how I monetize my unused concepts—truly a game-changer in the industry!"</p></td>
@@ -333,7 +392,7 @@ function Land() {
                                 </td>
                             </tr>
                             <tr>
-                                <td><p style={{ fontWeight: "600" }}>"From Idea to Income"</p></td>
+                                <td><h4>"From Idea to Income"</h4></td>
 
                             </tr>
                             <tr>
@@ -353,7 +412,7 @@ function Land() {
                                 </td>
                             </tr>
                             <tr>
-                                <td><p style={{ fontWeight: "600" }}>"Project Discovery Simplified"</p></td>
+                                <td><h4>"Project Discovery Simplified"</h4></td>
 
                             </tr>
                             <tr>
@@ -378,17 +437,17 @@ function Land() {
                     </div>
                     <div className='inner-work'>
                         <div className='work-content'>
-                            <HiFire style={{ marginLeft: "20px", fontSize:"25px" }} />
+                            <HiFire style={{ marginLeft: "20px", fontSize: "25px" }} />
                             <h3>Create account</h3>
                             <p> List your project in a few clicks, set your price, and you're ready to connect with buyers worldwide.</p>
                         </div>
                         <div className='work-content'>
-                            <BsClockFill style={{ marginLeft: "20px",fontSize:"20px" }} />
+                            <BsClockFill style={{ marginLeft: "20px", fontSize: "20px" }} />
                             <h3>List the project</h3>
                             <p>Filter projects by category, price, or popularity to find exactly what you're looking for, quickly and efficiently.</p>
                         </div>
                         <div className='work-content'>
-                            <IoMdCloud style={{ marginLeft: "20px",fontSize:"25px" }} />
+                            <IoMdCloud style={{ marginLeft: "20px", fontSize: "25px" }} />
                             <h3>Earn lifetime!</h3>
                             <p>Transactions are secured with end-to-end encryption, ensuring safety for buyer and seller funds.</p>
                         </div>
@@ -401,12 +460,12 @@ function Land() {
                         <p>Questions on your mind? Get instant answers to common queries right here.</p>
                     </div>
                     <div className='inner-faqs'>
-                        <p>  How do I list my project for sale?
+                        <p>  How do I list my project for sale? <br />
                             Start by creating an account, then use the 'Sell Your Project' feature to upload details and set your price.</p>
                         <p>What types of projects can I sell?</p>
                         <p>We use trusted payment gateways with encryption and offer escrow services for peace of mind.</p>
                         <p>
-                            What fees are involved in buying and selling?
+                            What fees are involved in buying and selling?<br />
                             Our platform charges a modest listing fee and a transaction fee upon the successful sale of your project.
                         </p>
                     </div>
