@@ -75,7 +75,7 @@ function Myspace() {
                 <div className='work1'>
                     <div className='headofall2'>
                         <h1>Documents</h1>
-                        <p>All your Documents at one place.</p>
+                        <p>All your Documents at one place.</p> 
                         <button>Add File</button>
                     </div>
                     <div className='inner-work1'>
