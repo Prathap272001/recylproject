@@ -22,7 +22,6 @@
 }
 
 
-
 .navbutton1 a,
 Link {
     background-color: rgb(204, 191, 191);
@@ -36,7 +35,7 @@ Link {
 
 .belownav1 img {
     width: 750px;
-    margin-top: -150px;
+    margin-top: -180px;
 }
 
 .navpara1 {
@@ -81,6 +80,11 @@ Link {
     .navpara1 p {
         font-size: 20px;
     }
+    .myspace-back
+    {
+        height: 550px;
+        overflow: hidden;
+    }
 }
 
 /* For medium devices (tablets, 768px to 1199px) */
@@ -92,8 +96,8 @@ Link {
     }
 
     .belownav1 img {
-        width: 600px;
-        margin-top: -50px;
+        width: 500px;
+        margin-top: 50px;
     }
 
     .navpara1 h1 {
@@ -108,13 +112,12 @@ Link {
         font-size: 22px;
     }
 
-    .navbutton1 a,
-    Link {
+    .navbutton1 
+     {
+        margin-top: 15px;
         display: flex;
-        flex-direction: column;
-        margin-bottom: 20px;
-        text-align: center;
-        width: 250px;
+        flex-wrap: wrap;
+        margin-top: -20px;
     }
 }
 
@@ -148,13 +151,12 @@ Link {
         font-size: 20px;
     }
 
-    .navbutton1 a,
-    Link {
+    .navbutton1 
+    {
+        margin-top: 15px;
         display: flex;
-        flex-direction: column;
-        margin-bottom: 20px;
-        text-align: center;
-        width: 250px;
+        flex-wrap: wrap;
+        margin-top: -20px;
 
     }
 }
@@ -181,13 +183,11 @@ Link {
 
 
 
-    .navbutton1 a,
-    Link {
+    .navbutton1 {
+        margin-top: 15px;
         display: flex;
-        flex-direction: column;
-        margin-bottom: 20px;
-        width: 250px;
-
+        flex-wrap: wrap;
+        margin-top: -20px;
     }
 }
 
@@ -216,22 +216,31 @@ Link {
 .headofall2 p {
     margin-top: -10px;
     font-family: 'Merriweather', serif;
+    font-size: 10px;
 
 }
 
-.headofall1 h1 {
-    margin-left: 20px;
-    font-family: 'Libre Franklin', sans-serif;
-    font-weight: 900;
-
-}
-
+.headofall1 h1,
 .headofall2 h1 {
     margin-left: 20px;
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 900;
+    font-size: 35px;
+    text-align: left;
 
 }
+
+
+.headofall2 a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
 
 .work1 p {
     margin-left: 20px;
@@ -256,15 +265,17 @@ Link {
 
 .work-content1 {
     width: 350px;
-    font-size: 18px;
-    margin: 30px;
+    font-size: 15px;
+    margin: 20px;
+    padding-left: 20px;
 }
 
 .project-list p {
     margin-left: 20px;
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Merriweather', serif;
     line-height: 1.6;
+    text-align: left;
 
 
 }
@@ -272,6 +283,7 @@ Link {
 .inner-pl {
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .pl-content {
@@ -281,7 +293,7 @@ Link {
 }
 
 .work-content1 p {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.6;
 }
 
@@ -300,25 +312,33 @@ Link {
     }
 
     .headofall1 {
-        width: 540px;
+        width: 400px;
         padding-top: 20px;
     }
 
     .headofall2 {
-        width: 360px;
-
+        width: 550px;
     }
-
 
     .pl-content {
         width: 240px;
     }
 
     .work-content1 {
-        width: 370px;
+        width: 380px;
 
     }
 
+    .inner-pl {
+        width: 1450px;
+    }
+
+    .headofall2 p {
+        font-family: 'Merriweather', serif;
+        font-size: 15px;
+        margin-bottom: 40px;
+        text-align: left;
+    }
 
 }
 
@@ -345,13 +365,20 @@ Link {
 
     .headofall1 h1 {
         margin-left: 0;
-        text-align: center;
+        text-align: left;
     }
+
+    .headofall2 {
+        margin-left: -45%;
+        margin-bottom: 30px;
+    }
+
 
     .work1 p,
     .project-list p {
-        margin-left: 0;
-        text-align: center;
+        margin-left: 20px;
+        text-align: left;
+
     }
 
     .work-content1,
@@ -391,8 +418,8 @@ Link {
 
     .work1 p,
     .project-list p {
-        margin-left: 0;
-        text-align: center;
+        margin-left: 20px;
+        text-align: left;
     }
 
     .work-content1,
@@ -400,7 +427,20 @@ Link {
         width: 90%;
         margin: 15px;
     }
+    .headofall2 {
+        margin-bottom: 30px;
+        margin-left: -70px;
 
+    }
+    .headofall2 p
+    {
+        margin-left: 20px;
+
+    }
+    .inner-work1
+    {
+        margin-left: -20px;
+    }
 
 }
 
@@ -434,12 +474,19 @@ Link {
         margin-left: 0;
         text-align: left;
     }
+    .headofall2 {
+        margin-bottom: 30px;
+    }
 
     .work-content1,
     .pl-content {
         width: 100%;
         margin: 10px;
     }
+    .headofall2 p
+    {
+        margin-left: 20px;
 
+    }
 
 }

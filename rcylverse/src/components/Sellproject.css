@@ -1,20 +1,13 @@
-.mydash {
-    margin: 50px;
-    font-size: 18px;
-
-}
 
 .mydash h1 {
     font-size: 30px;
     font-family: 'Libre Franklin', sans-serif;
     font-weight: bold;
-    font-style: italic; 
    
 
 }
 .mydash p
 {
- font-style: italic; /* Lean */
  font-family: 'Merriweather', serif;
 }
 
@@ -107,4 +100,114 @@
 .inner-charts {
     display: flex;
     justify-content: space-between;
+}
+@media (min-width: 1200px) {
+    .mydash {
+        margin: 50px;
+        font-size: 18px;  
+    }
+    .mydash h1 {
+        font-size: 30px;
+    }
+    .mydash-content1 {
+        width: 420px;
+    }
+    .mydash-content2 {
+        width: 665px;
+    }
+    
+}
+
+/* For medium devices (tablets, 768px to 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .mydash {
+        margin: 50px;
+        font-size: 18px;
+    }
+    
+    .mydash h1 {
+        font-size: 28px;
+    }
+    .inner-mydash {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .mydash-content1 {
+        width: 48%; /* Adjusts to take 48% of the container width */
+    }
+    .mydash-content2 {
+        width: 48%; /* Adjusts to take 48% of the container width */
+    }
+
+    .inner-charts {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+}
+
+/* For small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    .mydash {
+        margin: 10px;
+        font-size: 18px;
+    }
+    .mydash h1 {
+        font-size: 25px;
+    }
+    .mydash-content1,
+    .mydash-content2 {
+        width: 100%; /* Full width for mobile view */
+    }
+    .content21-pro {
+        margin-left: 0; /* Removes margin to prevent overflow */
+    }
+    .inner-mydash {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .inner-chart2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .inner-charts {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+/* For extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    
+    .mydash h1 {
+        font-size: 22px;
+    }
+    .mydash-content1,
+    .mydash-content2 {
+        width: 100%; /* Full width for mobile view */
+    }
+    .content21-layout {
+        flex-direction: column; /* Stacks items vertically */
+    }
+    .content21-up,
+    .content21-pro {
+        width: 100%; /* Full width for mobile view */
+        margin-bottom: 10px;
+    }
+    .inner-mydash {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .inner-charts {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }

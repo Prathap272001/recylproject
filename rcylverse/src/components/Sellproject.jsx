@@ -60,7 +60,7 @@ function Sellproject() {
                                 <div className='content1-chart'>
                                     <Chart
                                         chartType="Bar"
-                                        width="420px"
+                                        width="100%"
                                         data={data}
                                         options={{
                                             legend: { position: 'none' },

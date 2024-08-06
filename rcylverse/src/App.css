@@ -25,7 +25,11 @@
     margin-right: 20px;
 }
 
-
+.navbutton
+{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .navbutton a,
 Link {
@@ -110,7 +114,7 @@ Link {
 
     .belownav img {
         width: 600px;
-        margin-top: -50px;
+        margin-top: 30px;
     }
 
     .navpara h1 {
@@ -125,14 +129,9 @@ Link {
         font-size: 20px;
     }
 
-    .navbutton a,
-    Link {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 20px;
-        text-align: center;
-        width: 250px;
-    }
+
+
+   
 }
 
 /* For small devices (landscape phones, less than 768px) */
@@ -164,16 +163,13 @@ Link {
     .navpara p {
         font-size: 18px;
     }
-
     .navbutton a,
-    Link {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 20px;
-        text-align: center;
-        width: 250px;
-
+    Link
+    {
+        margin-top: 20px;
     }
+
+   
 }
 
 /* For extra small devices (portrait phones, less than 576px) */
@@ -195,17 +191,12 @@ Link {
     .navpara p {
         font-size: 18px;
     }
-
-
-
     .navbutton a,
-    Link {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 20px;
-        width: 250px;
-
+    Link
+    {
+        margin-top: 20px;
     }
+
 }
 
 @media (min-width:1200px) {
@@ -438,8 +429,7 @@ Link {
     }
 
     .inner-sellorbuy {
-        display: flex;
-        flex-direction: column;
+       
         align-items: center;
         justify-content: space-between;
         margin: 10px;
@@ -462,10 +452,9 @@ Link {
     }
 
     .inner-sellorbuy {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        
         justify-content: space-between;
+        align-items: center;
         margin: 10px;
         margin-bottom: 50px;
         height: 350px;
@@ -494,8 +483,7 @@ Link {
     }
 
     .inner-sellorbuy {
-        display: flex;
-        flex-direction: column;
+        
         align-items: center;
         justify-content: space-between;
         margin: 10px;
@@ -519,7 +507,9 @@ Link {
 
 .inner-sellorbuy {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 .ssb {
@@ -544,7 +534,6 @@ Link {
     margin-bottom: 10px;
     margin-top: 10px;
     font-family: 'Merriweather', serif;
-    
 
 }
 
@@ -1197,7 +1186,7 @@ Link {
     border-radius: 20px;
     color: black;
     background-color: rgb(204, 191, 191);
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .opportunity-content h1 {
@@ -1211,7 +1200,8 @@ Link {
 
     .opportunity p {
         font-size: 18px;
-        margin-top: -15px;
+        margin-top: -12px;
+        margin-bottom: 25px;
     }
 
     .opportunity img {
@@ -1326,11 +1316,11 @@ Link {
 
 .portfolio a {
     text-decoration: none;
-    padding: 10px;
+    padding: 13px;
     border-radius: 20px;
     color: black;
     background-color: rgb(204, 191, 191);
-    margin-left: 30px;
+    margin-left: 50px;
     font-size: 20px;
 }
 
@@ -1363,7 +1353,9 @@ Link {
     }
 
     .inner-portfolio {
-        margin-top: 15px;
+        margin-top: 13px;
+        margin-right: 50px;
+        
     }
 
     .portfolio h1 {
@@ -1432,11 +1424,12 @@ Link {
         margin-top: 40px;
     }
 
+    
     .inner-portfolio {
+        margin-top: 15px;
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-
+        flex-wrap: wrap;
+        margin-top: -20px;
     }
 
     .portfolio h1 {
@@ -1472,11 +1465,12 @@ Link {
         margin-top: 40px;
     }
 
+    
     .inner-portfolio {
+        margin-top: 15px;
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-
+        flex-wrap: wrap;
+        margin-top: -20px;
     }
 
     .portfolio h1 {
