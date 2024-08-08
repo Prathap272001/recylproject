@@ -1,0 +1,70 @@
+.drag {
+    width: 500px;
+    height: 360px;
+    padding-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.drag a {
+    text-decoration: none;
+}
+
+.inner-drag {
+    text-align: center;
+    cursor: pointer;
+}
+
+.inner-drag input {
+    position: absolute;
+    width: 180px;
+    height: 150px;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    opacity: 0;
+    margin: 14% 33%;
+}
+
+.drag-upload {
+    background-color: white;
+    width: 500px;
+    height: auto;
+    padding: 20px;
+}
+
+.inner-upload {
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-upload input,
+textarea {
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 7px;
+}
+
+@media (min-width: 1200px) {
+
+    .drag,
+    .drag-upload {
+        width: 500px;
+    }
+}
+
+@media (max-width: 767px) {
+    .drag,
+    .drag-upload {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .drag,
+    .drag-upload {
+        width: 100%;
+        height: auto;
+    }
+}

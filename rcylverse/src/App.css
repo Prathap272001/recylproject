@@ -312,7 +312,7 @@ Link {
     width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    transition: transform 0.3s ease;
+    transition: opacity 0.3s ease;
 }
 
 .grabimg:hover img {
@@ -1322,6 +1322,7 @@ Link {
     background-color: rgb(204, 191, 191);
     margin-left: 50px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .portfolio h1 {
@@ -1388,14 +1389,16 @@ Link {
     }
 
     .inner-portfolio {
-        margin-top: 15px;
         display: flex;
         flex-wrap: wrap;
-        margin-top: -20px;
+        margin-top: -10px;
+        margin-left:-10px;
+        margin-right: 10px;
     }
 
     .portfolio h1 {
         font-size: 28px;
+        margin-top: 5px;
     }
 
     .portfolio p {
@@ -1407,6 +1410,7 @@ Link {
         padding: 8px;
         margin-left: 20px;
         margin-top: 10px;
+        margin-bottom: 10px;
     }
 }
 
@@ -1426,10 +1430,8 @@ Link {
 
     
     .inner-portfolio {
-        margin-top: 15px;
         display: flex;
         flex-wrap: wrap;
-        margin-top: -20px;
     }
 
     .portfolio h1 {
@@ -1446,7 +1448,8 @@ Link {
         font-size: 14px;
         padding: 6px;
         margin-left: 0;
-        margin-top: 10px;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 }
 
@@ -1482,7 +1485,7 @@ Link {
 
     .portfolio p {
         font-size: 20px;
-        margin-top: 8px;
+        padding-bottom: 20px;
         text-align: left;
 
 

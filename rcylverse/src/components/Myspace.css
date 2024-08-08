@@ -80,8 +80,8 @@ Link {
     .navpara1 p {
         font-size: 20px;
     }
-    .myspace-back
-    {
+
+    .myspace-back {
         height: 550px;
         overflow: hidden;
     }
@@ -112,8 +112,7 @@ Link {
         font-size: 22px;
     }
 
-    .navbutton1 
-     {
+    .navbutton1 {
         margin-top: 15px;
         display: flex;
         flex-wrap: wrap;
@@ -151,8 +150,7 @@ Link {
         font-size: 20px;
     }
 
-    .navbutton1 
-    {
+    .navbutton1 {
         margin-top: 15px;
         display: flex;
         flex-wrap: wrap;
@@ -427,18 +425,19 @@ Link {
         width: 90%;
         margin: 15px;
     }
+
     .headofall2 {
         margin-bottom: 30px;
         margin-left: -70px;
 
     }
-    .headofall2 p
-    {
+
+    .headofall2 p {
         margin-left: 20px;
 
     }
-    .inner-work1
-    {
+
+    .inner-work1 {
         margin-left: -20px;
     }
 
@@ -474,6 +473,7 @@ Link {
         margin-left: 0;
         text-align: left;
     }
+
     .headofall2 {
         margin-bottom: 30px;
     }
@@ -483,10 +483,65 @@ Link {
         width: 100%;
         margin: 10px;
     }
-    .headofall2 p
-    {
+
+    .headofall2 p {
         margin-left: 20px;
 
     }
 
+}
+
+.drag-popup {
+    position: fixed;
+    top: 20%;
+    left: 35%;
+    animation: popup 0.5s ease forwards;
+    z-index: 100;
+    box-shadow: 2px 2px 15px 1px black;
+    border-radius: 10px;
+
+
+
+}
+
+@keyframes popup {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@media (min-width: 767px) and (max-width:1199px)
+{
+    .drag-popup {
+      
+        top: 25%;
+        left: 20%;
+    }
+}
+
+@media (max-width: 767px) {
+    .drag-popup {
+        width: 100%;
+        max-width: 400px;
+        top: 20%;
+        left: 25%;
+    }
+}
+
+@media (max-width: 575px) {
+    .drag-popup {
+        width: 100%;
+        max-width: 300px;
+        top: 20%;
+        left: 12%;
+    }
+}
+
+.pop-blur {
+    filter: blur(5px);
 }

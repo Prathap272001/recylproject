@@ -77,9 +77,7 @@ function Land() {
     const handleNextBack = () => {
         setBackContentIndex((prevIndex) => (prevIndex + 1) % backContents.length);
     };
-    const handlePrevBack = () => {
-        setBackContentIndex((prevIndex) => (prevIndex - 1) % backContents.length);
-    };
+    
 
     const nav = useNavigate();
     return (
